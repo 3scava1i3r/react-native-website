@@ -24,10 +24,6 @@ If you used Expo CLI or Create React Native App to set up your project, you can 
 
 <block class="linux windows mac android" />
 
-## Running your app on Android devices
-
-<block class="linux windows mac ios android" />
-
 <div class="toggler">
   <span>Development OS:</span>
   <span role="tablist" id="toggle-os">
@@ -36,8 +32,7 @@ If you used Expo CLI or Create React Native App to set up your project, you can 
     <button role="tab" class="button-windows" onclick="displayTab('os', 'windows')">Windows</a>
   </span>
 </div>
-
-<block class="linux windows ios" />
+<br>
 
 A Mac is required in order to build your app for iOS devices. Alternatively, you can refer to our [environment setup guide](environment-setup) to learn how to build your app using Expo CLI, which will allow you to run your app using the Expo client app.
 
@@ -66,6 +61,21 @@ If everything is set up correctly, your device will be listed as the build targe
 ![](/docs/assets/RunningOnDeviceReady.png)
 
 > If you run into any issues, please take a look at Apple's [Launching Your App on a Device](https://developer.apple.com/library/content/documentation/IDEs/Conceptual/AppDistributionGuide/LaunchingYourApponDevices/LaunchingYourApponDevices.html#//apple_ref/doc/uid/TP40012582-CH27-SW4) docs.
+
+## Running your app on Android devices
+
+<block class="linux windows mac ios android" />
+
+<div class="toggler">
+  <span>Development OS:</span>
+  <span role="tablist" id="toggle-os">
+    <button role="tab" class="button-mac" onclick="displayTab('os', 'mac')">macOS</a>
+    <button role="tab" class="button-linux" onclick="displayTab('os', 'linux')">Linux</a>
+    <button role="tab" class="button-windows" onclick="displayTab('os', 'windows')">Windows</a>
+  </span>
+</div>
+
+<block class="linux windows ios" />
 
 <block class="mac windows linux android" />
 
